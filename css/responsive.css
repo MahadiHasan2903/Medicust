@@ -1,0 +1,775 @@
+@media(min-width:320px) and (max-width:575px) {
+    #banner-sec {
+        height: 110px;
+    }
+    #hero-sec {
+        height: 110px;
+    }
+    #banner-sec h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    #hero-sec {
+        height: 300px;
+    }
+    #hero-sec .content>h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    #hero-sec .content>p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    /* ****************************
+    *******************************
+    -------Home Page start--------
+    *******************************
+    **************************** */
+    /* ====================================
+    ==================navbar start========= */
+    .main-menu>ul>li:first-child {
+        margin-left: 50px;
+    }
+    .main-menu>span.navbar-text::after {
+        top: 40%;
+        margin-left: -17px;
+    }
+    .main-menu>span.navbar-text::before {
+        padding-bottom: 20px;
+        margin-left: -17px;
+    }
+    .main-menu>span.navbar-text {
+        padding-left: 50px;
+        padding-bottom: 25px;
+    }
+    .main-menu>ul>li.active>a::before,
+    .main-menu>ul>li:hover>a::before {
+        top: 40px;
+    }
+    .main-menu>ul>li>a::before {
+        left: 80%;
+    }
+    /* ====================================
+    ==================navbar end========= */
+    /* ============================================
+    ==================Hero-section start========= */
+    /* ============================================
+    ==================Hero-section end========= */
+    /* ============================================
+    ==================Call-To-Action-section start========= */
+    #cta-sec span h2 {
+        font-size: 40px;
+    }
+    #cta-sec .action {
+        margin-top: 50px;
+    }
+    /*===========================================
+    ===============Call-To-Action-section end=========*/
+    /* ============================================
+    ==================Service-section start========= */
+    #service-sec {
+        padding: 50px 0 100px;
+    }
+    #video-sec span>h2 {
+        font-size: 30px;
+    }
+    /*===========================================
+    ===============Service-section end=========*/
+    /* ============================================
+    ==================Video-section start========= */
+    #video-sec span>h3 {
+        font-size: 17px;
+    }
+    #video-sec span>h2 {
+        font-size: 30px;
+    }
+    /*===========================================
+    ===============Video-section end=========*/
+    /* ============================================
+    ==================Fact-section start========= */
+    #facts-sec .contact-info>h2 {
+        font-size: 35px;
+    }
+    #facts-sec .contact-info>ul li span {
+        font-size: 16px;
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 7px;
+    }
+    #facts-sec .contact-info>ul li i {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 20px;
+    }
+    #facts-sec .contact-info>ul li:nth-child(2n) i {
+        margin: 10px auto;
+    }
+    #facts-sec .facts-area>h2 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #facts-sec .facts-area ul li i {
+        font-size: 40px;
+    }
+    #facts-sec .facts-area .fact .counter {
+        font-size: 23px;
+    }
+    /*===========================================
+    ===============Fact-section end=========*/
+    /* ============================================
+    ==================Testimonial-section start========= */
+    #testimonial-sec .testimonial-item .ratings i {
+        font-size: 18px;
+    }
+    #testimonial-sec .testimonial .owl-prev {
+        left: 20%;
+        transform: translateY(300%);
+    }
+    #testimonial-sec .testimonial .owl-next {
+        right: 20%;
+        transform: translateY(300%);
+    }
+    /*===========================================
+    ===============Testimonial-section end=========*/
+    /* ============================================
+    ==================Blog-section start========= */
+    #blog-sec .blog-sec-header h2 {
+        font-size: 45px;
+    }
+    #blog-sec .blog-sec-header p {
+        font-size: 15px;
+        padding: 20px 0;
+    }
+    #blog-sec .blog-card-body {
+        max-width: 100%;
+    }
+    /*===========================================
+    ===============Blog-section end=========*/
+    /* ============================================
+    ==================Footer-section start========= */
+    footer {
+        padding: 50px 0 0 0;
+    }
+    footer>.container {
+        padding-bottom: 70px;
+    }
+    /*==================================
+    Footer-section end
+    ====================================*/
+    /* ****************************
+    *******************************
+    -------Home Page end--------
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------About Page Start--------
+    *******************************
+    **************************** */
+    /*===========================================
+    ===============About-section start=========*/
+    #about-sec {
+        margin-top: 50px;
+    }
+    .sec-header>h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 28px 0;
+    }
+    /*===========================================
+    ===============About-section end=========*/
+    /*===========================================
+    ===============Mission-section start=========*/
+    #mission-sec .sec-header>ul>li {
+        font-size: 18px;
+        padding-left: 45px;
+    }
+    /*===========================================
+    ===============Mission-section end=========*/
+    /* ****************************
+    *******************************
+    -------About Page end--------
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Department Page start---
+    *******************************
+    **************************** */
+    /*===========================================
+    ===============Department-section start=========*/
+    #department-sec .department_content>ul {
+        padding: 0px
+    }
+    #department-sec .department_content>ul>li {
+        font-size: 17px;
+        padding-left: 45px;
+        padding-top: 20px;
+    }
+    #department-sec .department_content>ul>li::before {
+        top: 20px;
+    }
+    #department-sec .department_content>ul>li::after {
+        top: 27px;
+    }
+    /*===========================================
+    ===============Department-section end=========*/
+    /* ****************************
+    *******************************
+    -------Department Page end-----
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Blog Page start---
+    *******************************
+    **************************** */
+    /*===========================================
+    ===============Call-To-Action-section start=========*/
+    #cta-sec span h2 {
+        text-align: center;
+    }
+    /*===========================================
+    ===============Call-To-Action-section end=========*/
+    /* ****************************
+    *******************************
+    -------Blog Page end-----
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Contact Page start---
+    *******************************
+    **************************** */
+    /*===================================
+    ==========Call-To-Action-section start=======*/
+    #contact-sec .contact-info {
+        margin: 80px 0 127px;
+    }
+    #contact-sec .contact-info .contact>i {
+        margin: 0 auto;
+    }
+    /*==================================
+    =======Call-To-Action-section end========*/
+    /* ****************************
+    *******************************
+    -------Contact Page end-----
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Blog-single Page start---
+    *******************************
+    **************************** */
+    /*===================================
+    ===========Blog-detail-section start=====*/
+    #blog-detail-sec .blog-wrapper {
+        padding: 0;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content .blog-meta {
+        padding: 24px 0;
+        text-align: center;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content .blog-share {
+        padding: 40px 30px 0px;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content>ul>li {
+        font-size: 15px;
+        width: calc(49%);
+    }
+    #blog-detail-sec .blog-wrapper .blog-content>ul {
+        padding: 0;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content p+p {
+        padding: 30px 0;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content .blog-share .share a {
+        margin-right: 12px;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content>ul>li::before {
+        top: 5px;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content>ul>li::after {
+        top: 12px;
+    }
+    /*===================================
+    =========Blog-detail-section end====*|
+    
+    /* ****************************
+    *******************************
+    -------Blog-single Page end-----
+    *******************************
+    **************************** */
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    #banner-sec {
+        height: 150px;
+    }
+    #banner-sec h2 {
+        font-size: 35px;
+    }
+    /* ****************************
+    *******************************
+    -------Home Page start--------
+    *******************************
+    **************************** */
+    /* ====================================
+    ==================navbar start========= */
+    .main-menu>ul>li:first-child {
+        margin-left: 50px;
+    }
+    .main-menu>span.navbar-text::after {
+        top: 40%;
+        margin-left: -17px;
+    }
+    .main-menu>span.navbar-text::before {
+        padding-bottom: 20px;
+        margin-left: -17px;
+    }
+    .main-menu>span.navbar-text {
+        padding-bottom: 20px;
+        padding-left: 49px;
+    }
+    .main-menu>ul>li.active>a::before,
+    .main-menu>ul>li:hover>a::before {
+        top: 35px;
+    }
+    /* ====================================
+    ==================navbar end========= */
+    /* ============================================
+    ==================Hero-section start========= */
+    #hero-sec {
+        height: 700px;
+    }
+    #hero-sec .content>h2 {
+        font-size: 50px;
+    }
+    /* ============================================
+    ==================Hero-section end========= */
+    /* ============================================
+    ==================Call-To-Action-section start========= */
+    #cta-sec span h2 {
+        font-size: 35px;
+    }
+    #cta-sec .action {
+        margin-top: 30px;
+    }
+    /* ============================================
+    ==================Service-section start========= */
+    #service-sec {
+        padding: 50px 0 100px;
+    }
+    /*===========================================
+    ===============Service-section end=========*/
+    /* ============================================
+    ==================Video-section start========= */
+    #video-sec span>h2 {
+        font-size: 45px;
+    }
+    /*===========================================
+    ===============Video-section end=========*/
+    /* ============================================
+    ==================Team-section start========= */
+    #team-sec .team-member.join-team {
+        padding: 10px;
+    }
+    /*===========================================
+    ===============Team-section end=========*/
+    /* ============================================
+    ==================Fact-section start========= */
+    #facts-sec .contact-info>h2 {
+        font-size: 40px;
+    }
+    #facts-sec .contact-info>ul li span {
+        font-size: 30px;
+        margin-left: 70px;
+        margin-top: 5px;
+    }
+    #facts-sec .facts-area>h2 {
+        margin-top: 50px;
+    }
+    #testimonial-sec .testimonial .owl-prev {
+        left: 20%;
+        transform: translateY(200%);
+    }
+    #testimonial-sec .testimonial .owl-next {
+        right: 20%;
+        transform: translateY(200%);
+    }
+    /*===========================================
+    ===============Fact-section end=========*/
+    /* ****************************
+    *******************************
+    -------Home Page end--------
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------About Page Start--------
+    *******************************
+    **************************** */
+    /*===========================================
+    ===============About-section end=========*/
+    #about-sec {
+        margin-top: 100px;
+    }
+    .sec-header>h2 {
+        font-size: 40px;
+        margin: 30px 0;
+    }
+    /*===========================================
+    ===============About-section end=========*/
+    /* ****************************
+    *******************************
+    -------About Page end--------
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Department Page start---
+    *******************************
+    **************************** */
+    /*===========================
+    ===Department-section start==*/
+    #department-sec {
+        margin-top: 100px;
+    }
+    #blog-sec .blog-card .post_thumbnail {
+        max-width: 100%;
+    }
+    #blog-sec .blog-card-body {
+        max-width: 100%;
+    }
+    /*=============================
+    ====Department-section end====*/
+    /*===========================
+    ===Footer-section start==*/
+    footer .footer-col>p {
+        font-size: 21px;
+    }
+    footer .footer-social {
+        text-align: center;
+    }
+    /*=============================
+    ====Footer-section end====*/
+    /* ****************************
+    *******************************
+    -------Department Page end-----
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Contact Page start---
+    *******************************
+    **************************** */
+    /*===================================
+    ==========Contact-section start=======*/
+    #contact-sec .contact-info {
+        margin: 80px 0;
+    }
+    #contact-sec .contact-info .contact>i {
+        margin: 0 auto;
+    }
+    /*==================================
+    =======Contact-section end========*/
+    /* ****************************
+    *******************************
+    -------Contact Page end-----
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Blog-single Page start---
+    *******************************
+    **************************** */
+    /*===================================
+    ===========Blog-detail-section start=====*/
+    #blog-detail-sec .blog-wrapper {
+        padding: 40px;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content>ul>li {
+        width: auto;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content p {
+        text-align: center;
+    }
+    /*===================================
+    =========Blog-detail-section end====*|
+    
+    /* ****************************
+    *******************************
+    -------Blog-single Page end-----
+    *******************************
+    **************************** */
+    /* ======Footer-part-start========
+    ================================== */
+    footer {
+        padding: 50px 0 0;
+    }
+    /* ======Footer-part-end========
+    ================================== */
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #banner-sec {
+        /* background-position: top right; */
+        background-position-y: center;
+        background-position-x: calc(100% + 200px);
+    }
+    .topbar .topbar-text+.topbar-text {
+        margin-left: 20px;
+    }
+    .sec-header>h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 28px 0;
+    }
+    /* ****************************
+    *******************************
+    -------Home Page start--------
+    *******************************
+    **************************** */
+    /* ====================================
+    ==================navbar start========= */
+    .main-menu>ul>li:first-child {
+        margin-left: 50px;
+    }
+    .main-menu>span.navbar-text::after {
+        top: 40%;
+        margin-left: -17px;
+    }
+    .main-menu>span.navbar-text::before {
+        padding-bottom: 20px;
+        margin-left: -17px;
+    }
+    .main-menu>span.navbar-text {
+        padding-left: 50px;
+        padding-bottom: 25px;
+    }
+    .main-menu>ul>li.active>a::before,
+    .main-menu>ul>li:hover>a::before {
+        top: 40px;
+    }
+    .main-menu>ul>li>a::before {
+        left: 80%;
+    }
+    /* ====================================
+    ==================navbar end========= */
+    /* ============================================
+    ==================Hero-section start========= */
+    #hero-sec {
+        height: 700px;
+    }
+    #hero-sec .content>h2 {
+        font-size: 45px;
+    }
+    /* ============================================
+    ==================Hero-section end========= */
+    /* ============================================
+    ==================Call-To-Action-section start========= */
+    #cta-sec span h2 {
+        font-size: 40px;
+    }
+    #cta-sec .action {
+        margin-top: 50px;
+    }
+    /*===========================================
+    ===============Call-To-Action-section end=========*/
+    /* ============================================
+    ==================Video-section start========= */
+    #video-sec span>h3 {
+        font-size: 17px;
+    }
+    #video-sec span>h2 {
+        font-size: 50px;
+    }
+    /*===========================================
+    ===============Video-section end=========*/
+    /* ============================================
+    ==================Team-section start========= */
+    #team-sec .team-member.join-team {
+        padding: 1px;
+    }
+    /*===========================================
+    ===============Team-section end=========*/
+    /*===========================================
+    ===================Fact-section start=========*/
+    #facts-sec .contact-info>h2 {
+        font-size: 35px;
+    }
+    #facts-sec .contact-info>ul li span {
+        font-size: 35px;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    #facts-sec .contact-info>ul li i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+    }
+    #facts-sec .contact-info>ul li:nth-child(2n) i {
+        margin: 10px auto;
+    }
+    #facts-sec .facts-area>h2 {
+        font-size: 40px;
+    }
+    #facts-sec .facts-area ul li i {
+        font-size: 80px;
+    }
+    #facts-sec .facts-area .fact p {
+        font-size: 25px;
+    }
+    #testimonial-sec .testimonial .owl-prev {
+        left: 20%;
+        transform: translateY(200%);
+    }
+    #testimonial-sec .testimonial .owl-next {
+        right: 20%;
+        transform: translateY(200%);
+    }
+    /*===========================================
+    ===============Fact-section end=========*/
+    /* ****************************
+    *******************************
+    -------Home Page end--------
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------About Page Start--------
+    *******************************
+    **************************** */
+    /*===========================================
+    ===============About-section start=========*/
+    #about-sec {
+        margin-top: 50px;
+    }
+    /*===========================================
+    ===============About-section end=========*/
+    /* ****************************
+    *******************************
+    -------About Page end--------
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Blog single  Page end--------
+    *******************************
+    **************************** */
+    #blog-detail-sec .blog-wrapper .blog-content>ul>li {
+        width: auto;
+        padding-left: 57px;
+        margin-right: 20px;
+    }
+    #blog-detail-sec .blog-wrapper .blog-content p {
+        text-align: center;
+    }
+    #blog-sec .blog-card .post_thumbnail {
+        max-width: 100%;
+    }
+    #blog-sec .blog-card-body {
+        max-width: 100%;
+    }
+    /* ****************************
+    *******************************
+    -------Blog single Page end--------
+    *******************************
+    **************************** */
+    /* ****************************
+    *******************************
+    -------Contact Page Start--------
+    *******************************
+    **************************** */
+    /*===========================================
+    ===============Contact-section start=========*/
+    #contact-sec .contact-info .contact>i {
+        margin: 0 auto;
+    }
+    /*===========================================
+    ===============Contact-section end=========*/
+    /* ****************************
+    *******************************
+    -------Contact Page end--------
+    *******************************
+    **************************** */
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .cus-btn {
+        font-size: 14px;
+        padding: 15px 15px;
+    }
+    .main-menu>span.navbar-text::after {
+        height: 73px;
+        left: -33px;
+    }
+    .main-menu>ul>li+li {
+        margin-left: 10px;
+    }
+    .sec-header>h2 {
+        margin-top: 30px;
+    }
+    /* ****************************
+    *******************************
+    -------Home Page start--------
+    *******************************
+    **************************** */
+    /* ============================================
+    ==================Call-To-Action-section start========= */
+    #cta-sec span h2 {
+        font-size: 50px;
+    }
+    #cta-sec .action {
+        margin-top: 50px;
+    }
+    #testimonial-sec .testimonial .owl-prev {
+        left: 20%;
+        transform: translateY(200%);
+    }
+    #testimonial-sec .testimonial .owl-next {
+        right: 20%;
+        transform: translateY(200%);
+    }
+    /*===========================================
+    ===============Call-To-Action-section end=========*/
+    /* ****************************
+    *******************************
+    -------Home Page end--------
+    *******************************
+    **************************** */
+    /*-------Blog Page start--------
+    *******************************
+    **************************** */
+    /* ============================================
+    ==================Blog-social-section========= */
+    #blog-detail-sec .blog-wrapper .blog-content .blog-share {
+        text-align: center;
+    }
+    #blog-sec .blog-card .post_thumbnail {
+        max-width: 100%;
+    }
+    #blog-sec .blog-card-body {
+        max-width: 100%;
+    }
+    /*===========================================
+    ===============Blog-social-section end=========*/
+    /* ****************************
+    *******************************
+    -------Blog Page end--------
+    *******************************
+    **************************** */
+    /* =======Contact-part-start ======
+    ===================================*/
+    #contact-sec .contact-info .contact>i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        margin-right: 15px;
+    }
+    /* =======Contact-part-end ======
+    ===================================*/
+}
